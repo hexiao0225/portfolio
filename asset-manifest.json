@@ -1,23 +1,30 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.28693f09.chunk.css",
-    "main.js": "/portfolio/static/js/main.0d4cbaee.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.0d4cbaee.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.df509307.chunk.css",
+    "main.js": "/portfolio/static/js/main.fe2137f6.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.fe2137f6.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.aea3266d.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.aea3266d.js.map",
-    "static/js/2.34c2ad5b.chunk.js": "/portfolio/static/js/2.34c2ad5b.chunk.js",
-    "static/js/2.34c2ad5b.chunk.js.map": "/portfolio/static/js/2.34c2ad5b.chunk.js.map",
+    "static/css/2.0624914a.chunk.css": "/portfolio/static/css/2.0624914a.chunk.css",
+    "static/js/2.d5eeb793.chunk.js": "/portfolio/static/js/2.d5eeb793.chunk.js",
+    "static/js/2.d5eeb793.chunk.js.map": "/portfolio/static/js/2.d5eeb793.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.4c84940756203894356dfba81ddaada2.js": "/portfolio/precache-manifest.4c84940756203894356dfba81ddaada2.js",
+    "precache-manifest.44721fc13d239a85082a1f0a6be24e9f.js": "/portfolio/precache-manifest.44721fc13d239a85082a1f0a6be24e9f.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.28693f09.chunk.css.map": "/portfolio/static/css/main.28693f09.chunk.css.map",
+    "static/css/2.0624914a.chunk.css.map": "/portfolio/static/css/2.0624914a.chunk.css.map",
+    "static/css/main.df509307.chunk.css.map": "/portfolio/static/css/main.df509307.chunk.css.map",
     "static/media/index.css": "/portfolio/static/media/Recoleta-Bold.c57966ad.ttf",
+    "static/media/Miyake1.png": "/portfolio/static/media/Miyake1.23786200.png",
+    "static/media/Miyake2.png": "/portfolio/static/media/Miyake2.133135c5.png",
+    "static/media/Miyake3.png": "/portfolio/static/media/Miyake3.26b29c88.png",
+    "static/media/Miyake4.png": "/portfolio/static/media/Miyake4.f56e11e7.png",
     "static/media/RandomThoughts1.jpg": "/portfolio/static/media/RandomThoughts1.8f23909d.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.aea3266d.js",
-    "static/js/2.34c2ad5b.chunk.js",
-    "static/css/main.28693f09.chunk.css",
-    "static/js/main.0d4cbaee.chunk.js"
+    "static/css/2.0624914a.chunk.css",
+    "static/js/2.d5eeb793.chunk.js",
+    "static/css/main.df509307.chunk.css",
+    "static/js/main.fe2137f6.chunk.js"
   ]
 }
