@@ -1,5 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './fonts/Mark-Book.ttf';
+import './fonts/Mark-Bold.ttf';
+import './fonts/Mark-Light.ttf';
+import './fonts/Recoleta-Bold.ttf';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
