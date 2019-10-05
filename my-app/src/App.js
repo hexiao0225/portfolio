@@ -3,8 +3,7 @@ import './App.css';
 import Cover from './Cover';
 import About from './About';
 import Footer from './Footer';
-import Intro from './Intro';
-import { ArtistsBookDescription, PaintingDescription } from './text';
+import ArtistsBook from './ArtistsBook';
 
 function App() {
   return (
@@ -16,7 +15,7 @@ function App() {
         <About></About>
       </div>
       <div>
-        <ArtistsBookDescription></ArtistsBookDescription>
+        <ArtistsBook></ArtistsBook>
       </div>
       <Footer></Footer>
     </div>

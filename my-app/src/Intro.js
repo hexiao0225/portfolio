@@ -1,8 +1,8 @@
 import React from 'react';
+import './App.css';
 
 const ScrollIndicator = () => (
   <svg
-    fill="#fff"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 32 42"
     width="32"
@@ -13,9 +13,13 @@ const ScrollIndicator = () => (
   </svg>
 );
 
-export const Intro = ({ ScrollIndicator }) => (
+export const Intro = ({ props }) => (
   <div>
-    <ScrollIndicator></ScrollIndicator>
+    <div className="Page-Intro-Cover">
+      {props.title}
+      {props.description}
+      <ScrollIndicator></ScrollIndicator>
+    </div>
   </div>
 );
 
