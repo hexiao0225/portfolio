@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './fonts/Mark-Book.ttf';
 import './fonts/Mark-Bold.ttf';
 import './fonts/Mark-Light.ttf';

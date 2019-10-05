@@ -1,4 +1,8 @@
 import React from 'react';
+import './App.css';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 const Blob = ({ fill = '#fff' }) => (
   <svg
@@ -17,10 +21,22 @@ const Blob = ({ fill = '#fff' }) => (
 );
 
 export const Cover = blob => (
-  <div>
-    <Blob fill={'#013f92'}></Blob>
-    <h1>Hi, I am Xiao.</h1>
-    <p>I'm a front end developer</p>
+  <div className="Cover">
+    <Container>
+      <Row>
+        <h1>Xiao He</h1>
+      </Row>
+      <Row>
+        <Col xs={8} md={8}>
+          <Blob className="Cover-Blob" fill={'#013f92'}></Blob>
+          <div className="Cover-Title"></div>
+        </Col>
+        <Col>
+          <h1>Hi, I am Xiao.</h1>
+          <p>I'm a front end developer</p>
+        </Col>
+      </Row>
+    </Container>
   </div>
 );
 

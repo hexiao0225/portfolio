@@ -12,18 +12,29 @@
 }
 
 /* Cover Page */
-.Cover-Page {
+.Cover {
   background: #fcbbb0;
   color: white;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+}
+
+.Footer {
+  background: #fcbbb0;
+  color: white;
+}
+
+.Cover-Blob {
+  height: 50vh;
+  width: 50vw;
 }
 
 .About-Page {
-  font-family: 'Recoleta-Bold';
   color: black;
-  min-height: 90vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .Page-Intro-Cover {
@@ -33,4 +44,22 @@
 
 .Page-Intro-Cover.h2 {
   font-size: 2em;
+}
+
+p {
+  font-size: 1.2em;
+  font-family: 'Mark-Book';
+}
+
+h1 {
+  font-family: 'Recoleta-Bold';
+  font-size: 3em;
+}
+
+.Row-With-Top-Padding {
+  padding-top: 15vh;
+}
+
+img {
+  max-width: 100%;
 }

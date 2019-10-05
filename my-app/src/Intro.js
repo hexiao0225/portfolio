@@ -1,5 +1,8 @@
 import React from 'react';
 import './App.css';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 const ScrollIndicator = () => (
   <svg
@@ -15,12 +18,18 @@ const ScrollIndicator = () => (
 );
 
 export const Intro = ({ props }) => (
-  <div>
-    <div className="Page-Intro-Cover" style={{ backgroundColor: props.fill }}>
-      <h2>{props.title}</h2>
-      <p>{props.description}</p>
-      <ScrollIndicator></ScrollIndicator>
-    </div>
+  <div className="Page-Intro-Cover" style={{ backgroundColor: props.fill }}>
+    <Container>
+      <Row className="Row-With-Top-Padding">
+        <Col xs={12} s={12} md={4} lg={4}>
+          <h1>{props.title}</h1>
+        </Col>
+        <Col>
+          <p>{props.description}</p>
+          <ScrollIndicator></ScrollIndicator>
+        </Col>
+      </Row>
+    </Container>
   </div>
 );
 

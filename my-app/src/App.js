@@ -14,10 +14,8 @@ function App() {
       <div className="About-Page">
         <About></About>
       </div>
-      <div>
-        <ArtistsBook></ArtistsBook>
-      </div>
-      <Footer></Footer>
+      <ArtistsBook></ArtistsBook>
+      <Footer className="Footer"></Footer>
     </div>
   );
 }
