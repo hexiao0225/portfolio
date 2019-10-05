@@ -20,7 +20,7 @@ export const Cover = blob => (
   <div>
     <Blob fill={'#013f92'}></Blob>
     <h1>Hi, I am Xiao.</h1>
-    <h4>I'm a front end developer</h4>
+    <p>I'm a front end developer</p>
   </div>
 );
 

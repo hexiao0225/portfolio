@@ -7,6 +7,7 @@ const ScrollIndicator = () => (
     viewBox="0 0 32 42"
     width="32"
     height="42"
+    fill="#fff"
   >
     <desc>Scroll Indicator</desc>
     <polygon points="30.605 25.641 16.5 39.746 16.5 1.048 15.5 1.048 15.5 39.746 1.396 25.641 0.689 26.348 16 41.66 31.312 26.348 30.605 25.641"></polygon>
@@ -15,9 +16,9 @@ const ScrollIndicator = () => (
 
 export const Intro = ({ props }) => (
   <div>
-    <div className="Page-Intro-Cover">
-      {props.title}
-      {props.description}
+    <div className="Page-Intro-Cover" style={{ backgroundColor: props.fill }}>
+      <h2>{props.title}</h2>
+      <p>{props.description}</p>
       <ScrollIndicator></ScrollIndicator>
     </div>
   </div>

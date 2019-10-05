@@ -5,7 +5,7 @@ import RandomThoughts1 from './img/RandomThoughts1.jpg';
 const props = {
   title: 'Artists Book',
   description: 'some description on Artists Book',
-  backgroundColor: '#013F92'
+  fill: '#013F92'
 };
 
 export const ArtistsBook = ArtistsBookDescription => (
